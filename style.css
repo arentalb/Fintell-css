@@ -342,3 +342,81 @@
 .testimonial-link:hover{
     color: var(--color-gray-dark);
  }
+
+/***********************/
+/*steps */
+/***********************/
+
+.section-steps{
+    background-color: var(--color-gray);
+}
+.steps-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+.steps-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.steps-text-box p{
+    font-size: var(--font-size-8xl);
+}
+.steps-text-box img{
+
+    margin-bottom: 12rem;
+}
+
+.steps-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2rem;
+}
+.step-box{
+    background-color: #fff;
+    border-radius: var(--border-radius-normal);
+    padding: 3rem;
+    overflow: hidden;
+
+}
+.step-box-header{
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    background-color: var(--color-primary-tint-1);
+    transition: all 0.4s;
+}
+.step-box-header span{
+    margin-right: 4rem;
+}
+
+.step-box-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.step-box-list li{
+    font-size: 1.7rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-primary);
+    transition: all 1.5s;
+
+
+}
+
+.step-box-header:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+.step-box-list li:hover{
+    transform: translate(70px);
+
+}
+
+
