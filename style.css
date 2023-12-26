@@ -73,6 +73,11 @@
 /***********************/
 /*MAIN*/
 /***********************/
+
+
+/***********************/
+/*HERO*/
+/***********************/
 .section.hero-section {
     padding-top: 2rem;
 }
@@ -104,7 +109,7 @@
 
 }
 
-.hero-btn-box {
+.btn-box {
 
     padding: 0.8rem 2.5rem 0.8rem 0.8rem;
     background-color: white;
@@ -115,7 +120,7 @@
     margin-bottom: 12.6rem;
 }
 
-.hero-btn-box a {
+.btn-box a {
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -214,3 +219,69 @@
     transform: translateX(1rem);
 
 }
+
+
+/***********************/
+/*STATISTICS*/
+/***********************/
+
+.section-statistics{
+
+}
+
+
+.statistics-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 10rem;
+}
+.statistics-header-container h2 {
+    font-size: var(--font-size-6xl);
+    font-weight: 200;
+    max-width: 40%;
+
+}
+
+
+
+.btn-box-border{
+    border:1px solid var(--color-gray-dark);
+    margin-bottom: 0;
+}
+.statistics-data-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+
+}
+.statistic-data{
+    padding: 70px 60px;
+    border-radius: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.statistic-data-header{
+    font-size: var(--font-size-8xl);
+}
+.statistic-data-description{
+    font-size: var(--font-size-3xl);
+
+}
+.data-1{
+    background-color: var(--color-gray);
+}
+
+.data-2{
+    background-color: var(--color-primary);
+    color: var(--color-primary-tint-1);
+}
+
+.data-3{
+    background-color: var(--color-primary-tint-1);
+
+}
+

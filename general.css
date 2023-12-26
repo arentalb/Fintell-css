@@ -115,6 +115,7 @@ a {
     /* 1140px */
     max-width: 160rem;
     margin: 0 auto;
+    padding: 0 2rem ;
 }
 
 .section {
