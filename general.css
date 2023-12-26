@@ -1,0 +1,133 @@
+:root {
+    /*    - Font sizes (px)*/
+    /*10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98*/
+
+    --font-size-xs: 1rem;
+    --font-size-small: 1.2rem;
+    --font-size-normal: 1.4rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.4rem;
+    --font-size-3xl: 3rem;
+    --font-size-4xl: 3.6rem;
+    --font-size-5xl: 4.4rem;
+    --font-size-6xl: 5.2rem;
+    --font-size-7xl: 6.2rem;
+    --font-size-8xl: 7.4rem;
+    --font-size-9xl: 8.6rem;
+    --font-size-10xl: 9.8rem;
+
+    /*- Font weights*/
+
+    --font-weight-normal: 400;
+
+
+    /*- Line heights*/
+
+    --line-height-small: 1.05;
+    --line-height-normal: 1.2;
+    --line-height-large: 1.6;
+
+    /*- Letter spacing*/
+
+    --letter-space-small: -0.5px;
+    --letter-space-normal: 0;
+    --letter-space-large: 1.5px;
+
+
+    /*    - Spacing system (px)*/
+    /*2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128*/
+    --space-xs: 0.2rem;
+    --space-small: 0.4rem;
+    --space-normal: 0.8rem;
+    --space-medium: 1.2rem;
+    --space-large: 1.6rem;
+    --space-xl: 2.4rem;
+    --space-xxl: 3.2rem;
+    --space-3xl: 4.8rem;
+    --space-4xl: 6.4rem;
+    --space-5xl: 8rem;
+    --space-6xl: 9.6rem;
+    --space-7xl: 10.2rem;
+
+
+    /*COLORS*/
+
+
+    --color-primary-tint-1: rgb(221, 241, 230);
+    --color-primary: rgb(24, 56, 53);
+
+    --color-gray: rgb(245, 245, 245);
+    --color-gray-dark: rgb(120, 131, 116);
+
+
+    /*BORDER-RADIUS*/
+
+    --border-radius-normal: 33px;
+
+    /*Padding*/
+    --section-padding: 8rem 3rem;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    line-height: var(--line-height-normal);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-gray);
+}
+
+*:focus {
+    outline: none;
+    /* outline: 4px dotted #e67e22; */
+    /* outline-offset: 8px; */
+    /*box-shadow: 0 0 0 0.8rem rgba(224, 224, 224, 0.5);*/
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/**************************/
+/* GENERAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+    /* 1140px */
+    max-width: 160rem;
+    margin: 0 auto;
+}
+
+.section {
+    padding: var(--section-padding);
+}
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+
+}
