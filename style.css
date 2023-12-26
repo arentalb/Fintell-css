@@ -2,16 +2,18 @@
 /*HEADER*/
 /***********************/
 
- .header{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding: 1rem 3rem ;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
 
- }
- .main-nav {
- }
-.main-nav-list{
+}
+
+.main-nav {
+}
+
+.main-nav-list {
     display: flex;
     font-size: var(--font-size-large);
     color: var(--color-primary);
@@ -19,57 +21,196 @@
 
 
 }
-.main-nav-list li{
+
+.main-nav-list li {
     transition: all 0.3s;
 }
-.main-nav-action{
+
+.main-nav-action {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: var(--space-small);
 }
 
-.cart-icon{
+.cart-icon {
     margin-right: 1rem;
     padding-right: 2rem;
     border-right: 3px solid var(--color-gray);
 }
-.btn{
-    padding: 0.6rem 2rem ;
+
+.btn {
+    padding: 0.6rem 2rem;
     border-radius: 20rem;
     font-size: var(--font-size-medium);
 }
-.btn-login{
+
+.btn-login {
     color: var(--color-primary);
 }
-.btn-signup{
+
+.btn-signup {
     background-color: var(--color-primary);
     color: var(--color-gray);
 }
 
 
-.main-nav-list li:hover{
-color: var(--color-gray-dark);
+.main-nav-list li:hover {
+    color: var(--color-gray-dark);
 }
 
-.btn-login:hover{
+.btn-login:hover {
     color: var(--color-primary-tint-1);
-     background-color: var(--color-primary);
+    background-color: var(--color-primary);
 
 }
-.btn-signup:hover{
+
+.btn-signup:hover {
     color: var(--color-primary-tint-1);
 }
-
 
 
 /***********************/
 /*MAIN*/
 /***********************/
+.section.hero-section {
+    padding-top: 2rem;
+}
 
-.section {
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.hero-text-box {
+    border-radius: var(--border-radius-normal);
     background-color: var(--color-primary-tint-1);
+    padding: 5.5rem 3.3rem;
 
 }
-.container{
- }
+
+.hero-header {
+    font-size: var(--font-size-10xl);
+    font-weight: 200;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+
+.hero-description {
+    font-size: var(--font-size-xxl);
+    margin-bottom: 2.6rem;
+
+
+}
+
+.hero-btn-box {
+
+    padding: 0.8rem 2.5rem 0.8rem 0.8rem;
+    background-color: white;
+    display: flex;
+    font-size: var(--font-size-large);
+    max-width: max-content;
+    border-radius: 20rem;
+    margin-bottom: 12.6rem;
+}
+
+.hero-btn-box a {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-btn-icon {
+    font-size: var(--font-size-xxl);
+    background-color: var(--color-primary);
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20rem;
+    padding: 0.5rem;
+    transition: all 0.3s;
+
+}
+
+.hero-brand-box {
+
+}
+
+.hero-brand {
+    text-transform: uppercase;
+    font-size: var(--font-size-large);
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.hero-brand-img-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-brand-img-box img {
+    width: 8rem;
+}
+
+.her-img-box {
+    border-radius: var(--border-radius-normal);
+
+    background-image: url("img/hero-img.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-play-box {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: var(--border-radius-normal) 0 0 0;
+}
+
+.hero-play-box a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.play-icon {
+    font-size: var(--font-size-xxl);
+    background-color: var(--color-primary);
+    color: white;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 20rem;
+    padding: 2rem;
+    transition: all 0.4s;
+
+}
+
+.play-text {
+    font-size: var(--font-size-xxl);
+    transition: all 0.2s;
+}
+
+.play-text:hover {
+    color: var(--color-gray-dark);
+}
+
+.play-icon:hover {
+    padding: 1.6rem;
+
+}
+
+.hero-btn-icon:hover {
+    transform: translateX(1rem);
+
+}

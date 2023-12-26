@@ -88,7 +88,7 @@ body {
     font-family: 'DM Sans', sans-serif;
     line-height: var(--line-height-normal);
     font-weight: var(--font-weight-normal);
-    color: var(--color-gray);
+    color: var(--color-primary);
 }
 
 *:focus {

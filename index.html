@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="general.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Fintell </title>
 </head>
 <body>
@@ -18,7 +18,7 @@
 <header class="header">
 
     <a href="#">
-        <img src="img/logo.svg" alt="">
+        <img alt="" src="img/logo.svg">
     </a>
 
     <nav class="main-nav">
@@ -29,11 +29,11 @@
             <li>Success Stories</li>
             <li>Pricing</li>
             <li>Contact</li>
-           </ul>
+        </ul>
     </nav>
 
     <div class="main-nav-action">
-        <a href=""><img src="img/cart-icon.svg" class="cart-icon" alt=""></a>
+        <a href=""><img alt="" class="cart-icon" src="img/cart-icon.svg"></a>
         <button class="btn btn-login">Log in</button>
         <button class="btn btn-signup">Signup</button>
 
@@ -41,15 +41,54 @@
 
 </header>
 <main>
-    <div class="section">
-        <div class="container">
+    <section class="section hero-section">
+        <div class="container hero-container">
+            <div class="hero-text-box">
+                <h1 class="hero-header">Finances <br>made easy</h1>
+                <p class="hero-description">Effortlessly manage invoices, payroll, and other finances for your
+                    business.</p>
+                <div class="hero-btn-box">
 
+                    <a href="">
+                        <ion-icon class="hero-btn-icon" name="chevron-forward-outline"></ion-icon>
+                        <p>Start your Free Trial</p>
+                    </a>
+                </div>
+
+                <div class="hero-brand-box">
+                    <p class="hero-brand">TRUSTED BY LEADING BRANDS</p>
+                    <div class="hero-brand-img-box">
+                        <img alt="" src="img/brands/brand-1.svg">
+                        <img alt="" src="img/brands/brand-2.svg">
+                        <img alt="" src="img/brands/brand-3.svg">
+                        <img alt="" src="img/brands/brand-4.svg">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="her-img-box">
+                <div class="hero-play-box">
+                    <a href="#">
+                        <!--                        <ion-icon name="play-outline" class="play-icon"></ion-icon>-->
+                        <svg class="play-icon" fill="none" height="18" viewBox="0 0 17 18" width="17"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.3363 5.5359C17.003 7.0755 17.003 10.9245 14.3363 12.4641L6.83631 16.7942C4.16964 18.3338 0.836309 16.4093 0.836309 13.3301L0.836309 4.66987C0.836309 1.59067 4.16964 -0.33383 6.83631 1.20577L14.3363 5.5359Z"
+                                  fill="white"/>
+                        </svg>
+
+                        <p class="play-text">Watch demo </p>
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
 </main>
 <footer>
 
 </footer>
+<script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" type="module"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
