@@ -594,6 +594,7 @@
 .active .result-icon-box {
     background-color: var(--color-primary);
 }
+
 .result-icon-box:hover {
     transform: translateX(1rem);
 }
@@ -682,7 +683,76 @@
     width: 2.5rem;
     display: inline-block;
 }
-.result-icon-box:hover{
+
+.result-icon-box:hover {
     transform: translateX(1rem);
 
+}
+
+/***********************/
+/*CALL TO ACTION  */
+/***********************/
+
+.section-cta {
+
+}
+
+.cta-container {
+
+    background-color: var(--color-primary-tint-1);
+    border-radius: var(--border-radius-normal);
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+.cta-text {
+    background-color: var(--color-primary-tint-1);
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70%;
+    text-align: center;
+    padding: 4rem;
+
+}
+
+.cta-illustrator {
+}
+
+.cta-heading {
+    font-size: var(--font-size-8xl);
+    margin-bottom: 4rem;
+}
+
+.cta-description {
+    font-size: var(--font-size-xl);
+    margin-bottom: 2rem;
+
+
+}
+
+
+.cta-img {
+    display: flex;
+    overflow: hidden;
+    max-height: 600px;
+    opacity: 0.8;
+}
+
+.cta-img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+}
+
+.cts-btn-box {
+    margin-bottom: 0;
 }
