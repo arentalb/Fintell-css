@@ -2,7 +2,74 @@
 /*HEADER*/
 /***********************/
 
+ .header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 3rem ;
+
+ }
+ .main-nav {
+ }
+.main-nav-list{
+    display: flex;
+    font-size: var(--font-size-large);
+    color: var(--color-primary);
+    gap: var(--space-xl);
+
+
+}
+.main-nav-list li{
+    transition: all 0.3s;
+}
+.main-nav-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-small);
+}
+
+.cart-icon{
+    margin-right: 1rem;
+    padding-right: 2rem;
+    border-right: 3px solid var(--color-gray);
+}
+.btn{
+    padding: 0.6rem 2rem ;
+    border-radius: 20rem;
+    font-size: var(--font-size-medium);
+}
+.btn-login{
+    color: var(--color-primary);
+}
+.btn-signup{
+    background-color: var(--color-primary);
+    color: var(--color-gray);
+}
+
+
+.main-nav-list li:hover{
+color: var(--color-gray-dark);
+}
+
+.btn-login:hover{
+    color: var(--color-primary-tint-1);
+     background-color: var(--color-primary);
+
+}
+.btn-signup:hover{
+    color: var(--color-primary-tint-1);
+}
+
+
+
 /***********************/
 /*MAIN*/
 /***********************/
 
+.section {
+    background-color: var(--color-primary-tint-1);
+
+}
+.container{
+ }
